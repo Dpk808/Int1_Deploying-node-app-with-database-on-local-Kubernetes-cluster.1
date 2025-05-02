@@ -17,7 +17,11 @@ Application from my dockerhub
 
 2.Applying the yaml files:
 
-<pre lang="markdown"> <code>```text mongo-config.yaml -- one configuration for all pods mongo-secret.yaml -- stores credentials mongo.yaml -- database webapp.yaml -- app ```</code> </pre>
+
+mongo-config.yaml            -- one configurations for all pods\n
+mongo-secret.yaml            -- stores credentials\n
+mongo.yaml                   -- database\n
+webapp.yaml                  -- app\n
 
 Command:
 kubectl apply -f .
