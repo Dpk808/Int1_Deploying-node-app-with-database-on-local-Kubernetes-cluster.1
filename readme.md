@@ -18,10 +18,13 @@ Application from my dockerhub
 2.Applying the yaml files:
 
 
-mongo-config.yaml            -- one configurations for all pods\n
-mongo-secret.yaml            -- stores credentials\n
-mongo.yaml                   -- database\n
-webapp.yaml                  -- app\n
+mongo-config.yaml            -- one configurations for all pods
+
+mongo-secret.yaml            -- stores credentials
+
+mongo.yaml                   -- database
+
+webapp.yaml                  -- app
 
 Command:
 kubectl apply -f .
