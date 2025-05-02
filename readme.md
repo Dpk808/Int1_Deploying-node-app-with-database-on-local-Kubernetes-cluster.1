@@ -27,7 +27,8 @@ mongo.yaml                   -- database
 webapp.yaml                  -- app
 
 Command:
-kubectl apply -f .
+
+_**kubectl apply -f .**_
 
 Applying all yaml files
 
